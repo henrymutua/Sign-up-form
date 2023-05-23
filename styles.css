@@ -1,8 +1,26 @@
 body{
-   width:50rem;
-   height:50rem;
-
+   width:100vw;
+   min-height:100vh;
+   margin: 0;
 }
 .main-container{
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.part-one{
+    width: 40vw;
+    min-height: 100vh;
+    margin: 0px;
+   background-image: url("west.jpg");
+   background-size:cover;
+    
+}
+
+.part-two{
+    width:60vw;
+    height: 100vw;
+    margin: 0px;
 }
